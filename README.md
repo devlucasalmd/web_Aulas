@@ -1,3 +1,5 @@
+# Repositorio utilizado para deixar codigos das aulas preparadas.
+
 # Comandos para usar o repositorio
 
 ## Criar pasta .git dentro da pasta do projeto
@@ -10,13 +12,13 @@
 ```git commit -m "" ```
 
 ## Enviar para repositorio 
-```git push git@github.com:devlucasalmd/aulaWeb.git```
+```git push <link do repositorio>```
 
 ## Checar repositorio 
 ```git status```
 
 ## Clonar Repositorio
-``` git clone git@github.com:devlucasalmd/aulaWeb.git```  
+``` git clone <link do repositorio>```  
 
 ## Criar branch nova
 ``` git checkout -b "<nome-da-branch>"```
@@ -25,6 +27,6 @@
 ``` git checkout <nome-da-branch>```
 
 ## Atualizar repositorio local
-``` git pull git@github.com:devlucasalmd/aulaWeb.git```
+``` git pull <link do repositorio>```
 
 
