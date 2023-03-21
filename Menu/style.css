@@ -1,0 +1,79 @@
+/* div = topnav */
+.topnav{
+    background-color: #596e79;
+    margin-bottom: 12px;
+}
+
+.topnav h2{
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.links{
+    text-decoration: none;
+}
+
+/*    Aplicando CSS 
+Começar a modificar o menu */
+
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;  
+}
+  
+
+/* -------- Colocar ele Horizontal -------- */
+
+.menu li{
+    float: left;  
+}   
+
+ /* Como faria para modificar o que ta escrito no Menu? */
+/* -------- Modificar o que está escrito -------- */
+ 
+.menu li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;  
+    text-decoration: none;
+}
+ 
+/* -------- Modificar quando o mouse estiver em cima -------- */
+.menu li a:hover{
+    background-color: #111111;
+}
+
+
+/*   -------- Ocultando submenu -------- */
+
+ul.submenu {
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    position: absolute;  
+    background-color: #413d3d ;  
+    display: none;  
+}
+
+
+/* -------- Apresentar o submenu -------- */
+
+.menu li:hover > ul.submenu{
+  display: block;
+}
+
+
+/* -------- Modificar quando o mouse estiver em cima -------- */
+
+.menu li a:hover {
+    background-color: #111111;  
+}
+  
+.submenu li a:hover {  
+    background-color: #eeeeee;
+    color: #111111;
+}

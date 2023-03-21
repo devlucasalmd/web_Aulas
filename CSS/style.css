@@ -1,0 +1,48 @@
+h2{
+    
+  background-color: red;
+}
+
+#avatar{
+    width:250px;
+    height:300px;
+    
+}
+
+#vingadores{
+    max-width:250px;
+    max-height:300px;
+    width: auto;
+    height: auto; 
+    justify-content: space-around; 
+}
+
+#jogos{
+    width: auto;
+    height: auto;  
+}
+
+.sobre{
+    background-color: lightslategrey;
+    font-family: ;
+}
+
+.links{
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+h3{
+    background-color: slategray;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+p{
+    color: whitesmoke;
+    font-size: larger   ;
+}

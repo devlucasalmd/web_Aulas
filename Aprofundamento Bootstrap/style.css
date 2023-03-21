@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px){
+    .img-carousel {
+      height: 300px
+   } 
+}
+div.footer{
+   background-color: black;
+   color: antiquewhite;
+   text-align: center;
+}

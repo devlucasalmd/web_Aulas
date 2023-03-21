@@ -1,0 +1,54 @@
+/* div = topnav */
+.topnav{
+    background-color: #596e79;
+    margin-bottom: 12px;
+}
+
+.topnav a{
+    color: black;
+    font-size: 25px;
+}
+
+.topnav h2{
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.links{
+    text-decoration: none;
+}
+
+
+/* div = filmes */
+.filmes{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 350px;
+}
+
+/* div = sobre */
+.sobre{
+    background-color: lightslategrey;
+    margin: 0px;
+}
+
+.sobre h3{
+    background-color: rgb(72, 73, 74);
+    font-size: x-large;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sobre p{
+    color: whitesmoke;
+    font-size: larger;
+}
+
+
+/* div = footer */
+.footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}

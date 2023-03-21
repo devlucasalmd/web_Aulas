@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>NOSSOS FILMES EM CARTAZ</h1>
+        <table border="1">
+            <tr><!--  Linha  --> 
+                <th>Filme</th> <!-- Cabeçalho -->
+                <th>Genero</td>
+                <th>Horario</th>
+            </tr>
+            <tr>
+                <td>Avatar</td> <!-- Celula -->
+                <td rowspan="2">Ação</td>
+                <td>12:00</td>
+            </tr>
+            <tr>
+                <td>Homem-Aranha</td>
+                <td>13:00</td>
+            </tr>
+        </table>  
+        <br>
+        <br>
+        <p id="titulo">Comprar Ingresso</p>       
+        <form action="" method="GET">
+            Nome: <input type="text" name="nome" value = "Seu nome"> <input type="text" name="nome" value="José" readonly><br>
+            Nome: <input type="text" name="nome" placeholder="Digite seu primeiro nome."><br>
+            <hr>
+            E-mail: <input type="email" name="email"><br>
+            Senha: <input type="password" name="senha" required><br>            
+            <hr>
+            Qual filme você quer assistir? <br>
+            <input type="radio" name="filme" value="Avatar" checked>Avatar<br>
+            <input type="radio" name="filme" value="Homem-Aranha">Homem-Aranha<br>    
+            <input type="radio" name="filme" value="Batman">Batman<br>    
+            <input type="radio" name="filme" value="Outro">Outro<br>
+            
+            <br>Escolha o estilo da sessão<br>
+            <input type="checkbox" name="estilo1" value="2D">2D<br>    
+            <input type="checkbox" name="estilo2" value="3D">3D<br>    
+            <input type="checkbox" name="estilo3" value="3DMax">3DMax<br>    
+            <input type="checkbox" name="estilo4" value="4D">4D<br>
+            <br>Quantidade de ingressos:<br>
+            <input type="number" name="quantidade"><br>
+            <br>Pontos<br>
+            <br>Data atual<br>
+            <input type="date" name="data"><br>
+            <br>Data e hora da sessão<br>
+            <input type="datetime-local"><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Redefinir"><br>
+            Selecione sua filme preferido:<br>
+            <select name="filmes">
+                <option value="Avatar" selected>Avatar</option>
+                <option value="Homem-Aranha">Homem-Aranha</option>
+                <option  value="Batman">Batman</option>
+                <option value="Outro">Outro</option>
+            </select>
+            <br>Deixe aqui sua opinião sobre o filme:<br>
+            <textarea name="mensagem" rows="10" cols="30">Comente</textarea><br>
+            <button type="button" onclick="alert('Olá Mundo!')">Clique em mim!</button>
+        </form>
+    </body>
+</html>
